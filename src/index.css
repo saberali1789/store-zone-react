@@ -17,7 +17,8 @@ code {
 }
 
 .img-card {
-  width: 3rem;
+  width: 50%;
+  height: 15rem;
 }
 
 .card {
