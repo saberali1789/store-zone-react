@@ -1,10 +1,10 @@
 import React from 'react'
-import img1 from '../img/img1.png';
-import img2 from '../img/img2.png';
+import img1 from '../img/img1.jpg';
+import img2 from '../img/img2.jpg';
 import img3 from '../img/img3.png';
 const Slider = () => {
   return (
-    <div id="carouselExampleIndicators" className="carousel slide">
+    <div id="carouselExampleIndicators" className="carousel slide container">
     <div className="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
