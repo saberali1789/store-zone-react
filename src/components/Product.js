@@ -6,7 +6,7 @@ const Product = (props) => {
   const product = props.product
   return (
     <div className="card p-1 mb-5" >
-    <img src={product.image} className="card-img-top img-card" alt='00' />
+    <img src={product.image} className="card-img-top p-3 img-card" alt='00' />
     <div className="card-body">
       <h5 className="card-title">{product.title.slice(0, 20)}</h5>
       <p className="card-text">{product.description.slice(0, 70)}...</p>

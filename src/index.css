@@ -17,10 +17,10 @@ code {
 }
 
 .img-card {
-  width: 50%;
+  /* width: 50%; */
   height: 15rem;
 }
 
-.card {
-  /* width: 15rem; */
-}
+/* .card {
+  width: 15rem;
+} */
